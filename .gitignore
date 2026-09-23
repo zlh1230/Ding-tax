@@ -1,0 +1,53 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+**/__pycache__/
+*.pyc
+.venv/
+agent/.venv/
+.pytest_cache/
+
+# Node/Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Browser profiles, recordings, and diagnostic captures
+playwright-profile/
+browser-profile/
+browser-profile-chrome/
+chrome-etax-profile/
+agent/chrome-etax-profile/
+agent/recordings/
+agent/recordings/**
+agent/debug_snapshots/
+agent/tools/chromedriver/
+*.har
+*.cookie
+*.cookies
+*.session
+cookies/
+sessions/
+
+# Generated local files
+downloads/
+temp/
+logs/
+*.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

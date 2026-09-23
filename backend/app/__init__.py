@@ -1,0 +1,2 @@
+"""DingInvoiceMVP backend."""
+
